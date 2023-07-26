@@ -28,8 +28,8 @@ fi
 
 
 
-						name=""
-						pass=""
+						name="Galirus"
+						pass="404"
 						e="echo -e"
 						r="read -p"
 						q="-e"
