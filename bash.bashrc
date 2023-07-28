@@ -53,8 +53,6 @@ do
         $r " Password  : " apa
 	clear
 done
-	$e $k "Perkenalan Diri Siapa Nama Anda ?$m"
-	$r " Nama : " nama
 	echo $q $h
 	echo -ne " Loading [ 1 ]\r"
 	sleep 0.1
@@ -129,8 +127,12 @@ done
 	echo $q $h "LOGIN BERHASIL ...!!!"
 	sleep 3
 	clear
-	cd
-	mpv Wellcome.mp3
+	$e $k "Perkenalan Diri Siapa Nama Anda ?$m"
+	$r " Nama : " nama
+	clear
+	cd $HOME
+	cd TOOLSV3
+	mpv wellcome.mp3
 	clear
     screenfetch -A Debian
 $e $bl"╔═══════════════════════════════════════════╗"
