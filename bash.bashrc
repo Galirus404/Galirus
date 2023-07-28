@@ -132,7 +132,8 @@ done
 	clear
 	cd $HOME
 	cd TOOLSV3
-	mpv wellcome.mp3
+	mpv wallcome.mp3
+        cd
 	clear
     screenfetch -A Debian
 $e $bl"╔═══════════════════════════════════════════╗"
