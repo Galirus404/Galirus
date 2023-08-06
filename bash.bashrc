@@ -46,13 +46,6 @@ fi
 						NOW=`date "+%d-%m-%Y"`
 						TIME=`date "+%H:%M"`
 clear
-while [ "$siapa","$apa" != "$name","$pass" ]
-do
-	$e $m
-        $r " Username  : " siapa
-        $r " Password  : " apa
-	clear
-done
 	echo $q $h
 	echo -ne " Loading [ 1 ]\r"
 	sleep 0.1
